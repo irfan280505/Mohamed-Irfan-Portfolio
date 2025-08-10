@@ -1,61 +1,52 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import myImg from "../../Assets/Projects/irfan.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-section" id="about">
+    <Container fluid className="home-about-section" id="about" >
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.3em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-                <b className="purple"> C, Java and React. </b>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              &nbsp; like
-                <b className="purple"> React.js and Next.js</b>
-            </p>
+            <Card className="quote-card-view">
+              <Card.Body>
+                <blockquote className="blockquote mb-0">
+                  <p style={{ textAlign: "justify" }}>
+                     <h6 style={{ fontSize: "1.5em", paddingBottom: "20px" }}>
+              Let Intro <strong className="purple">Myself</strong>
+            </h6>
+                    Hi Everyone, I am <span className="purple">Mohamed Irfan</span> from{" "}
+                    <span className="purple">Pudukkottai, India.</span>
+                    <br />
+                    I am currently studying Python Fullstack in Qspiders at Velachery, Chennai.
+                    <br />
+                    I have completed a Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai and
+                    Now I am studying online Master of Computer Application at SRM Institute of Science and Technology at
+                    Kattankulathur Campus, Chennai.
+                  </p>
+                </blockquote>
+              </Card.Body>
+            </Card>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" width={330} height={300}  />
             </Tilt>
           </Col>
         </Row>
+
+          
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social ">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
+<ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/irfan280505"
