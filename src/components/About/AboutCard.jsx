@@ -8,14 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mohamed Irfan </span>
-            from <span className="purple">Pudukkottai, India.</span>
+            I fell in love <span className="purple">Programming </span>
+            and i have at learn something, I think,
+            I am fluent and classics like <span className="purple">C, Java and React.</span>
             <br />
-            I am currently studying python Fullstack in Qspiders at Velachery, Chennai.
-            <br />
-            I have completed Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai and now going online Master of Computer Application 
-            in SRM Institude of Science and Technology at Kattangulathur Campus, Chennai.
-            <br />
+            Whenever possible, I also apply my passion for developing products with <span className="purple">Node.js</span> and <span className="purple">Modern Javascript Library and Frameworks </span>           
+            like <span className="purple">React.js and Next.js.</span> <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -31,10 +29,9 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p className="irfa" style={{ color: "rgb(155 126 172)" }}>
+          "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">irfan</footer>
         </blockquote>
       </Card.Body>
     </Card>

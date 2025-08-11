@@ -82,15 +82,18 @@ button:focus {
   backdrop-filter: blur(15px) !important;
 }
 
-.navbar {
-  position: fixed !important;
-  transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 160px;
+    top: 3px;
+  }
 }
 
 .navbar-toggler {
   position: relative !important;
+  margin-left: 125px;
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -257,11 +260,14 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  text-align: justify;
+  line-height: 1.8;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  
 }
 
 
@@ -278,7 +284,7 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2.2em !important;
   padding-left: 45px !important;
 }
 
@@ -323,6 +329,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  
 }
 
 .home-about-description {
@@ -453,7 +461,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   color: white !important;
 }
@@ -514,7 +521,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   color: white !important;
 }
 
@@ -649,3 +656,19 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.GR{
+  font-size: 10.5em !important;
+}
+
+.irfa{
+  padding-right:40px;
+}
+
+
+
+
+
+
+
+

@@ -6,6 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -20,9 +21,15 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
+
+
+         <blockquote className="blockquote mb-0">
+            <p style={{ textAlign: "justify" }}>
+                <h6 style={{ fontSize: "1.5em", paddingBottom: "20px", paddingLeft:"17px" }}>
+              Know Who <strong className="purple">I'm</strong>
+            </h6>
+            </p>
+            </blockquote>
             <Aboutcard />
           </Col>
           <Col
