@@ -23,7 +23,7 @@ function Home2() {
                     <br />
                     I am currently studying Python Fullstack in Qspiders at Velachery, Chennai.
                     <br />
-                    I have completed a Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai Affiliated to Bharathidasan University at Tiruchirappalli and
+                    I have completed a Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai and
                     Now I am studying online Master of Computer Application at SRM Institute of Science and Technology at
                     Kattankulathur Campus, Chennai.
                   </p>
