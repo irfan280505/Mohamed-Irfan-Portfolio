@@ -21,9 +21,9 @@ function Home2() {
                     Hi Everyone, I am <span className="purple">Mohamed Irfan</span> from{" "}
                     <span className="purple">Pudukkottai, India.</span>
                     <br />
-                    I am currently studying Python Fullstack in Qspiders at Velachery, Chennai.
+                    I am currently studying Python Fullstack in Qspiders at Chromepet, Chennai.
                     <br />
-                    I have completed a Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai and
+                    I have completed a Bachelor of Computer Application in J.J College of Arts and Science at Pudukkottai Affiliated to Bharathidasan University at Tiruchirappalli and
                     Now I am studying online Master of Computer Application at SRM Institute of Science and Technology at
                     Kattankulathur Campus, Chennai.
                   </p>
