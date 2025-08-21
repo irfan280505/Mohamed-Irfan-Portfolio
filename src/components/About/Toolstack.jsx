@@ -1,9 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiEclipseide, SiPostman, SiVercel } from "react-icons/si";
-import { Icon } from '@iconify/react';
-import vscodeIcon from '@iconify-icons/simple-icons/visualstudiocode';
-
+import { SiEclipseide, SiPostman, SiVercel, SiCanva } from "react-icons/si";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -16,8 +13,8 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiEclipseide /> {/* Eclipse IDE icon */}
       </Col>
-       <Col xs={4} md={2} className="tech-icons">
-      <Icon icon={vscodeIcon} />
+     <Col xs={4} md={2} className="tech-icons">
+      <SiCanva/>
     </Col>
     </Row>
   );
