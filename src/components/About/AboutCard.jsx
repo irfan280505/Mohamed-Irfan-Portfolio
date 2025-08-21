@@ -28,10 +28,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p className="irfa" style={{ color: "rgb(155 126 172)" }}>
-          "Strive to build things that make a difference!"{" "}
-          </p>
         </blockquote>
       </Card.Body>
     </Card>
